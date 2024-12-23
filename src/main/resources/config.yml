@@ -1,0 +1,220 @@
+settings:
+  language: "en"
+
+tweaks:
+  always_drop:
+    enabled: false
+    blocks:
+      - "ENDER_CHEST"
+      - "GLASS"
+      - "TINTED_GLASS"
+      - "WHITE_STAINED_GLASS"
+      - "LIGHT_GRAY_STAINED_GLASS"
+      - "GRAY_STAINED_GLASS"
+      - "BLACK_STAINED_GLASS"
+      - "BROWN_STAINED_GLASS"
+      - "RED_STAINED_GLASS"
+      - "ORANGE_STAINED_GLASS"
+      - "YELLOW_STAINED_GLASS"
+      - "LIME_STAINED_GLASS"
+      - "GREEN_STAINED_GLASS"
+      - "CYAN_STAINED_GLASS"
+      - "LIGHT_BLUE_STAINED_GLASS"
+      - "BLUE_STAINED_GLASS"
+      - "PURPLE_STAINED_GLASS"
+      - "MAGENTA_STAINED_GLASS"
+      - "PINK_STAINED_GLASS"
+      - "GLASS_PANE"
+      - "WHITE_STAINED_GLASS_PANE"
+      - "LIGHT_GRAY_STAINED_GLASS_PANE"
+      - "GRAY_STAINED_GLASS_PANE"
+      - "BLACK_STAINED_GLASS_PANE"
+      - "BROWN_STAINED_GLASS_PANE"
+      - "RED_STAINED_GLASS_PANE"
+      - "ORANGE_STAINED_GLASS_PANE"
+      - "YELLOW_STAINED_GLASS_PANE"
+      - "LIME_STAINED_GLASS_PANE"
+      - "GREEN_STAINED_GLASS_PANE"
+      - "CYAN_STAINED_GLASS_PANE"
+      - "LIGHT_BLUE_STAINED_GLASS_PANE"
+      - "BLUE_STAINED_GLASS_PANE"
+      - "PURPLE_STAINED_GLASS_PANE"
+      - "MAGENTA_STAINED_GLASS_PANE"
+      - "PINK_STAINED_GLASS_PANE"
+  anti_creeper_grief:
+    enabled: false
+    block_damage: false
+    entity_damage: false
+  anti_enderman_grief:
+    enabled: false
+    blocks:
+  anti_ghast_grief:
+    enabled: false
+    blocks:
+  anti_zombie_breach:
+    enabled: false
+  anvil_cost_limiter:
+    enabled: false
+    limit: 39
+  apiarist_suit:
+    enabled: false
+  bat_membranes:
+    enabled: false
+    chance: 100
+    drop: "PHANTOM_MEMBRANE"
+    amount: 1
+  chest_sorting:
+    enabled: false
+    radius: 1
+  chicken_shedding:
+    enabled: false
+    chance: 10
+    drop: "FEATHER"
+    amount: 1
+  death_book:
+    enabled: false
+    author: "<red>Death"
+    title: "<red>Death Book"
+    content:
+      - "<red><bold>Death Coordinates"
+      - ""
+      - "<red><italic>RIP, you died at:"
+      - ""
+      - "    <black>X: <red><x>"
+      - "    <black>Y: <red><y>"
+      - "    <black>Z: <red><z>"
+      - ""
+      - "<red>Good luck finding your stuff!"
+  dirt_to_grass:
+    enabled: false
+    wheat_seed_chance: 5
+    melon_seed_chance: 5
+    pumpkin_seed_chance: 5
+    beetroot_seed_chance: 5
+    bone_meal_chance: 20
+  dragon_loot:
+    enabled: false
+    drops:
+      - "ELYTRA"
+  fast_paths:
+    enabled: false
+    amplifier: 2
+  item_finder:
+    enabled: false
+    command: "itemfinder"
+    permission: "moretweaks.itemfinder"
+    range: 5
+  mobs_on_blocks:
+    enabled: false
+    mobs:
+      drowned: true
+      mooshroom: true
+      cow: true
+  more_shulker_shells:
+    enabled: false
+    amount: 2
+  no_more_zoombies:
+    enabled: false
+  one_life_one_totem:
+    enabled: false
+    sleeping_resets: false
+  paperbark:
+    enabled: false
+    chance: 10
+    drop: "PAPER"
+    amount: 1
+    logs:
+      - "OAK_LOG"
+      - "SPRUCE_LOG"
+      - "BIRCH_LOG"
+      - "JUNGLE_LOG"
+      - "ACACIA_LOG"
+      - "DARK_OAK_LOG"
+      - "MANGROVE_LOG"
+      - "CHERRY_LOG"
+      - "CRIMSON_STEM"
+      - "WARPED_STEM"
+  possessive_pigmen:
+    enabled: false
+    radius: 20.0
+    anger: 30
+    blocks:
+      - "NETHER_QUARTZ_ORE"
+  random_creeper_fuse:
+    enabled: false
+    min_fuse: 10
+    max_fuse: 100
+  real_time_clock:
+    enabled: false
+    command: "realtimeclock"
+    permission: "moretweaks.realtimeclock"
+    message: "<green>The world has been active for <white><days> <green>days, <white><hours> <green>hours, and <white><minutes> <green>minutes."
+  slime_cream:
+    enabled: false
+  starting_inventory:
+    enabled: false
+    items:
+      - "items_here"
+  stomp_torches:
+    enabled: false
+    players: true
+    entities: false
+  trader_notify:
+    enabled: false
+    message: "<white>A <blue>Wandering Trader <white>has spawned at <yellow><x>, <y>, <z>."
+    play_sound: true
+    sound: "minecraft:block.note_block.chime,1.0,1.0"
+    radius: 30.0
+  transferable_pets:
+    enabled: false
+    pets:
+      - "HORSE"
+      - "CAMEL"
+      - "CAT"
+      - "DONKEY"
+      - "LLAMA"
+      - "MULE"
+      - "PARROT"
+      - "WOLF"
+  unlock_all_recipes:
+    enabled: false
+  unstable_tnt:
+    enabled: false
+  weakened_bedrock:
+    enabled: false
+    radius: 3
+    chance: 50
+    speed: 10
+    worlds:
+      - "world"
+      - "world_nether"
+      - "world_the_end"
+  xp_bottling:
+    enabled: false
+    xp_per_bottle: 100
+
+recipes:
+  blasted_ore_blocks:
+    enabled: false
+    experience: 10
+    cooking_time: 100
+  craftable_bell:
+    enabled: false
+  craftable_enchanted_golden_apple:
+    enabled: false
+  dropper_to_dispenser:
+    enabled: false
+  sticky_honey_piston:
+    enabled: false
+  turtle_box:
+    enabled: false
+  unpackable_ice:
+    enabled: false
+  unpackable_nether_wart:
+    enabled: false
+  unpackable_wool:
+    enabled: false
+  zombie_leather:
+    enabled: false
+    experience: 10
+    cooking_time: 100

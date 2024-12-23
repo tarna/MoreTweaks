@@ -1,0 +1,129 @@
+tweak:
+  always_drop:
+    name: "Always Drop"
+    description: "Always drop the block when broken."
+  anti_creeper_grief:
+    name: "Anti Creeper Grief"
+    description: "Prevent creepers from destroying blocks or entities."
+  anti_enderman_grief:
+    name: "Anti-Enderman Grief"
+    description: "Prevent endermen from picking up blocks."
+  anti_ghast_grief:
+    name: "Anti-Ghast Grief"
+    description: "Prevent ghasts from destroying blocks."
+  anti_zombie_breach:
+    name: "Anti-Zombie Breach"
+    description: "Prevent zombies from breaking doors."
+  anvil_cost_limiter:
+    name: "Anvil Cost Limiter"
+    description: "Limits the repair cost of an anvil."
+  apiarist_suit:
+    name: "Apiarist Suit"
+    description: "Prevent bees from attacking you when wearing a full set of chain armor."
+  bat_membranes:
+    name: "Bat Membranes"
+    description: "Obtain phantom membranes from bats."
+  chest_sorting:
+    name: "Chest Sorting"
+    description: "Sort items in chests by clicking a button."
+  chicken_shedding:
+    name: "Chicken Shedding"
+    description: "Chickens have a chance to shed feathers rather than laying eggs."
+  death_book:
+    name: "Death Book"
+    description: "Give players a book with information about their death when they respawn."
+  dirt_to_grass:
+    name: "Dirt to Grass"
+    description: "Convert dirt to grass with certain items."
+  dragon_loot:
+    name: "Dragon Loot"
+    description: "Set custom drops when the ender dragon is killed."
+  fast_paths:
+    name: "Fast Paths"
+    description: "Increase the speed of players on paths."
+  item_finder:
+    name: "Item Finder"
+    description: "Adds a command to find items in nearby containers."
+  mobs_on_blocks:
+    name: "Mobs on Blocks"
+    description: "Certain mobs walking on certain blocks will trigger an event."
+  more_shulker_shells:
+    name: "More Shulker Shells"
+    description: "Increase the number of shulker shells dropped."
+  no_more_zoombies:
+    name: "No More Zoombies"
+    description: "Sets the speed of baby zombies to the ones of regular zombies."
+  one_life_one_totem:
+    name: "One Life One Totem"
+    description: "Players can only use one totem of undying per life."
+  paperbark:
+    name: "Paperbark"
+    description: "Obtain paper stripping logs"
+  possessive_pigmen:
+    name: "Possessive Pigmen"
+    description: "Pigmen will get angry when mining gold."
+  random_creeper_fuse:
+    name: "Random Creeper Fuse"
+    description: "Randomize the fuse length of creepers."
+  real_time_clock:
+    name: "Real Time Clock"
+    description: "Display how long the world has been running in real-time."
+  slime_cream:
+    name: "Slime Cream"
+    description: "Convert slime balls into magma creams and vice versa using water and lava cauldrons."
+  starting_inventory:
+    name: "Starting Inventory"
+    description: "Give players a starting inventory when they join the server."
+  stomp_torches:
+    name: "Stomp Torches"
+    description: "Extinguish torches by walking on them."
+  trader_notify:
+    name: "Trader Notify"
+    description: "Notify players when a wandering trader spawns."
+  transferable_pets:
+    name: "Transferable Pets"
+    description: "Transfer ownership of pets to other players."
+  unlock_all_recipes:
+    name: "Unlock All Recipes"
+    description: "Unlock all recipes for players."
+  unstable_tnt:
+    name: "Unstable TNT"
+    description: "Right click a TNT with gunpowder to make it unstable."
+  weakened_bedrock:
+    name: "Weakened Bedrock"
+    description: "Allow bedrock to be weakened by lingering potion of weakness."
+  xp_bottling:
+    name: "XP Bottling"
+    description: "Bottle your experience points into bottles of enchanting to store them."
+
+recipe:
+  blasted_ore_blocks:
+    name: "Blasted Ore Blocks"
+    description: "Smelt raw ore blocks directly to the block form using a blast furnace."
+  craftable_bell:
+    name: "Craftable Bell"
+    description: "Craft a bell using planks and gold."
+  craftable_enchanted_golden_apple:
+    name: "Craftable Enchanted Golden Apple"
+    description: "Craft an enchanted golden apple using gold blocks and an apple like in the old days."
+  dropper_to_dispenser:
+    name: "Dropper to Dispenser"
+    description: "Convert a dropper into a dispenser using ingredients of a bow."
+  sticky_honey_piston:
+    name: "Sticky Honey Piston"
+    description: "Craft a sticky piston using a honeycomb."
+  turtle_box:
+    name: "Turtle Box"
+    description: "Craft a green shulker box using a turtle helmet and a chest."
+  unpackable_ice:
+    name: "Unpackable Ice"
+    description: "Craft ice blocks back into ice cubes."
+  unpackable_nether_wart:
+    name: "Unpackable Nether Wart"
+    description: "Craft nether wart blocks back into nether wart."
+  unpackable_wool:
+    name: "Unpackable Wool"
+    description: "Craft any wool block back into string."
+  zombie_leather:
+    name: "Zombie Leather"
+    description: "Smelt leather into rotten flesh."

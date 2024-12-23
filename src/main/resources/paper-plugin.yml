@@ -1,0 +1,7 @@
+name: MoreTweaks
+version: 1.0.0
+main: dev.tarna.moretweaks.MoreTweaks
+description: Adds more custom tweaks and recipes to the game.
+author: Tarna
+website: https://github.com/tarna/MoreTweaks
+api-version: '1.19'
