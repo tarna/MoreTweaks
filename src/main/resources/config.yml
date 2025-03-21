@@ -216,6 +216,10 @@ tweaks:
       - "world"
       - "world_nether"
       - "world_the_end"
+  wither_flesh:
+    enabled: false
+    chance: 100
+    amount: 1
   xp_bottling:
     enabled: false
     xp_per_bottle: 100
