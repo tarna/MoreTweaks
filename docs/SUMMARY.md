@@ -42,6 +42,7 @@
 * [Unstable TNT](tweaks/unstable-tnt.md)
 * [Weakened Bedrock](tweaks/weakened-bedrock.md)
 * [XP Bottling](tweaks/xp-bottling.md)
+* [Zombie Pickaxe](tweaks/zombie-pickaxe.md)
 
 ## Recipes
 
