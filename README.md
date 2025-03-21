@@ -18,7 +18,7 @@ All tweaks and recipes are disabled by default so you will have to enable them i
 If you have any feedback or suggestions or find any bugs for the plugin, please feel free to open a [GitHub issue](https://github.com/tarna/MoreTweaks/issues) or join the [Discord server](https://discord.gg/SScnNymExa) and let me know.
 
 ## Inspiration
-Many of the tweaks and recipes from this plugin were inspired by other existing datapacks and plugins that exist out there. Please check them out using the links below:
+Many of the tweaks and recipes from this plugin were inspired by other existing datapacks and plugins that exist out there or from [r/minecraftsuggestions](https://www.reddit.com/r/minecraftsuggestions). Please check them out using the links below:
 - [One Life One Totem](https://modrinth.com/plugin/one-life-one-totem)
 - [Owl's Ultimate QoL](https://modrinth.com/datapack/owls-ultimate-qol)
 - [Teak Tweaks](https://modrinth.com/plugin/teaks-tweaks)

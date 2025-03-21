@@ -35,7 +35,7 @@ class WeakenedBedrock : Tweak {
         val blocks = areaEffectCloud.location.getNearbyBlocks(radius.toInt(), Material.BEDROCK).shuffled()
         for (i in blocks.indices) {
             plugin.server.scheduler.runTaskLater(plugin, Runnable {
-                if (chance(chance.toInt())) blocks[i].type = Material.COBBLESTONE
+                if (chance(chance)) blocks[i].type = Material.COBBLESTONE
             }, speed.toInt() * i.toLong())
         }
     }

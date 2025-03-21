@@ -26,7 +26,7 @@ class BatMembranes : Tweak {
     fun onBatDeath(event: EntityDeathEvent) {
         val entity = event.entity
         if (entity !is Bat) return
-        if (!chance(chance.toInt())) return
+        if (!chance(chance)) return
 
         val location = entity.location
         location.world.dropItemNaturally(location, drop.toItemStack(amount.toInt()))

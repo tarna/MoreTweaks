@@ -29,6 +29,9 @@ tweak:
   chicken_shedding:
     name: "Chicken Shedding"
     description: "Chickens have a chance to shed feathers rather than laying eggs."
+  dead_saplings:
+    name: "Dead Saplings"
+    description: "Saplings die when planted on certain blocks."
   death_book:
     name: "Death Book"
     description: "Give players a book with information about their death when they respawn."
@@ -38,9 +41,15 @@ tweak:
   dragon_loot:
     name: "Dragon Loot"
     description: "Set custom drops when the ender dragon is killed."
+  durability_ping:
+    name: "Durability Ping"
+    description: "Notify players when their tools are about to break."
   fast_paths:
     name: "Fast Paths"
     description: "Increase the speed of players on paths."
+  feather_crops:
+    name: "Feather Crops"
+    description: "Crops don't get trampled when you walk on them with feather falling boots."
   item_finder:
     name: "Item Finder"
     description: "Adds a command to find items in nearby containers."
@@ -59,6 +68,9 @@ tweak:
   paperbark:
     name: "Paperbark"
     description: "Obtain paper stripping logs"
+  pet_memorial_name_tag:
+    name: "Pet Memorial Nametag"
+    description: "Drops a memorial item when a pet dies."
   possessive_pigmen:
     name: "Possessive Pigmen"
     description: "Pigmen will get angry when mining gold."
@@ -71,6 +83,9 @@ tweak:
   slime_cream:
     name: "Slime Cream"
     description: "Convert slime balls into magma creams and vice versa using water and lava cauldrons."
+  soft_punch:
+    name: "Soft Punch"
+    description: "Does no damage to entities when punched with certain items."
   starting_inventory:
     name: "Starting Inventory"
     description: "Give players a starting inventory when they join the server."

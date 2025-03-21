@@ -8,7 +8,23 @@ import org.bukkit.inventory.ItemStack
 import org.bukkit.persistence.PersistentDataType
 import org.bukkit.util.Vector
 
+val ItemStack.isSapling: Boolean
+    get() = type in allSaplings
+
+val ItemStack.isLog: Boolean
+    get() = type in allLogs
+
+val ItemStack.isPlank: Boolean
+    get() = type in allPlanks
+
+val ItemStack.isWool: Boolean
+    get() = type in allWool
+
+val ItemStack.isFarmLand: Boolean
+    get() = type in allFarmLandBlocks
+
 fun Material.toItemStack(amount: Int = 1) = ItemStack(this, amount)
+fun Material.toItemStack(amount: Number) = toItemStack(amount.toInt())
 
 fun <T : Any> ItemStack.setValue(key: String, value: T, type: PersistentDataType<*, T>) {
     val meta = itemMeta
@@ -18,6 +34,10 @@ fun <T : Any> ItemStack.setValue(key: String, value: T, type: PersistentDataType
 
 fun <T> ItemStack.getValue(key: String, type: PersistentDataType<*, T>): T? {
     return itemMeta.persistentDataContainer.get(Key.get(key), type)
+}
+
+fun <T> ItemStack.hasValue(key: String, type: PersistentDataType<*, T>): Boolean {
+    return itemMeta.persistentDataContainer.has(Key.get(key), type)
 }
 
 fun ItemStack.setName(name: String) {

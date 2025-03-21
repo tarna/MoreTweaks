@@ -42,7 +42,7 @@ class DirtToGrass : Tweak {
         }
 
         item.amount--
-        if (chance(chance.toInt())) {
+        if (chance(chance)) {
             block.type = Material.GRASS_BLOCK
         }
     }

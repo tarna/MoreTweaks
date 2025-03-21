@@ -23,4 +23,6 @@ interface Tweak : Listener {
     fun enable() {}
     fun disable() {}
     fun reload() {}
+
+    fun requiredCustomListeners(): List<Class<out Listener>> = emptyList()
 }

@@ -32,8 +32,8 @@ class Paperbark : Tweak {
         val block = event.clickedBlock ?: return
         if (!logs.contains(block.type)) return
 
-        if (!chance(chance.toInt())) return
+        if (!chance(chance)) return
         val location = block.location
-        location.world.dropItemNaturally(location, drop.toItemStack(amount.toInt()))
+        location.world.dropItemNaturally(location, drop.toItemStack(amount))
     }
 }

@@ -25,7 +25,7 @@ class ChickenShedding : Tweak {
     @EventHandler(ignoreCancelled = true)
     fun onChickenLay(event: EntityDropItemEvent) {
         val chicken = event.entity as? Chicken ?: return
-        if (!chance(chance.toInt())) return
+        if (!chance(chance)) return
 
         event.isCancelled = true
         val location = chicken.location

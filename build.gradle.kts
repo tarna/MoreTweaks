@@ -1,11 +1,12 @@
 plugins {
-    kotlin("jvm") version "2.0.20"
-    id("com.gradleup.shadow") version "8.3.5"
-    id("xyz.jpenilla.run-paper") version "2.3.1"
+    kotlin("jvm") version libs.versions.kotlin
+    alias(libs.plugins.shadow)
+    alias(libs.plugins.paperweight)
+    alias(libs.plugins.runpaper)
 }
 
 group = "dev.tarna"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -14,10 +15,10 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21.3-R0.1-SNAPSHOT")
-    implementation("com.github.DebitCardz:mc-chestui-plus:1.5.6")
-    implementation("org.bstats:bstats-bukkit:3.0.2")
-    implementation("org.reflections:reflections:0.10.2")
+    paperweight.paperDevBundle(libs.versions.paper)
+    implementation(libs.mcchestuiplus)
+    implementation(libs.bstats)
+    implementation(libs.reflections)
 }
 
 kotlin {
@@ -26,11 +27,13 @@ kotlin {
 
 tasks {
     shadowJar {
+        archiveBaseName.set("MoreTweaks")
+        archiveClassifier.set("")
         relocate("org.bstats", "dev.tarna.moretweaks.bstats")
     }
 
     runServer {
-        minecraftVersion("1.21.3")
+        minecraftVersion("1.21.4")
         jvmArgs("-DPaper.IgnoreJavaVersion=true", "-Dcom.mojang.eula.agree=true")
     }
 }

@@ -71,6 +71,13 @@ tweaks:
     chance: 10
     drop: "FEATHER"
     amount: 1
+  dead_saplings:
+    enabled: false
+    delay: "1s"
+    time: "1m"
+    blocks:
+      - "SAND"
+      - "RED_SAND"
   death_book:
     enabled: false
     author: "<red>Death"
@@ -96,9 +103,18 @@ tweaks:
     enabled: false
     drops:
       - "ELYTRA"
+  durability_ping:
+    enabled: false
+    threshold: 5
+    message_type: "action_bar"
+    message: "<red><bold>Item durability is low!"
+    sound: "minecraft:block.note_block.chime,1.0,1.0"
   fast_paths:
     enabled: false
     amplifier: 2
+  feather_crops:
+    enabled: false
+    chance: 100
   item_finder:
     enabled: false
     command: "itemfinder"
@@ -134,6 +150,13 @@ tweaks:
       - "CHERRY_LOG"
       - "CRIMSON_STEM"
       - "WARPED_STEM"
+  pet_memorial_name_tag:
+    enabled: false
+    drop: "NAME_TAG"
+    chance: 100
+    format: "<red><bold>In Memory of <white><name>"
+    show_death_message: true
+    should_burn: false
   possessive_pigmen:
     enabled: false
     radius: 20.0
@@ -151,6 +174,10 @@ tweaks:
     message: "<green>The world has been active for <white><days> <green>days, <white><hours> <green>hours, and <white><minutes> <green>minutes."
   slime_cream:
     enabled: false
+  soft_punch:
+    enabled: false
+    items:
+      - "FEATHER"
   starting_inventory:
     enabled: false
     items:
@@ -198,23 +225,33 @@ recipes:
     enabled: false
     experience: 10
     cooking_time: 100
+    amount: 1
   craftable_bell:
     enabled: false
+    amount: 1
   craftable_enchanted_golden_apple:
     enabled: false
+    amount: 1
   dropper_to_dispenser:
     enabled: false
+    amount: 1
   sticky_honey_piston:
     enabled: false
+    amount: 1
   turtle_box:
     enabled: false
+    amount: 1
   unpackable_ice:
     enabled: false
+    amount: 9
   unpackable_nether_wart:
     enabled: false
+    amount: 9
   unpackable_wool:
     enabled: false
+    amount: 4
   zombie_leather:
     enabled: false
     experience: 10
     cooking_time: 100
+    amount: 1

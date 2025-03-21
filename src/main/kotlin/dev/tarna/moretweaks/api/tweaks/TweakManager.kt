@@ -3,6 +3,7 @@ package dev.tarna.moretweaks.api.tweaks
 import dev.tarna.moretweaks.MoreTweaks
 import dev.tarna.moretweaks.api.utils.ReflectionUtils
 import org.bukkit.event.HandlerList
+import org.bukkit.event.Listener
 
 class TweakManager(val plugin: MoreTweaks) {
     val configManager = plugin.configManager
@@ -26,6 +27,13 @@ class TweakManager(val plugin: MoreTweaks) {
 
     fun isTweakEnabled(tweak: Tweak): Boolean {
         return enabledTweaks.contains(tweak)
+    }
+
+    fun getRequiredCustomListeners(): Set<Listener> {
+        return tweaks
+            .flatMap { it.requiredCustomListeners() }
+            .map { it.getDeclaredConstructor().newInstance() }
+            .toSet()
     }
 
     fun load() {

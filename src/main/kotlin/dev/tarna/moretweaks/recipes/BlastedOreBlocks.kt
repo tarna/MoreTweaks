@@ -10,10 +10,12 @@ import org.bukkit.inventory.BlastingRecipe
 class BlastedOreBlocks : CustomRecipe("blasted_ore_blocks") {
     private lateinit var experience: Number
     private lateinit var cookingTime: Number
+    private lateinit var amount: Number
 
     override fun reload() {
         experience = BlastedOreBlocksConfig.experience
         cookingTime = BlastedOreBlocksConfig.cookingTime
+        amount = BlastedOreBlocksConfig.amount
     }
 
     override fun registerRecipes() = listOf(
@@ -23,6 +25,6 @@ class BlastedOreBlocks : CustomRecipe("blasted_ore_blocks") {
     )
 
     private fun createRecipe(input: Material, output: Material): BlastingRecipe {
-        return BlastingRecipe(Key.get("${path}_${input.name}"), output.toItemStack(), input, experience.toFloat(), cookingTime.toInt())
+        return BlastingRecipe(Key.get("${path}_${input.name}"), output.toItemStack(amount), input, experience.toFloat(), cookingTime.toInt())
     }
 }

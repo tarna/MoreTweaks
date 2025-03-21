@@ -4,6 +4,7 @@ import dev.tarna.moretweaks.api.commands.CommandManager
 import dev.tarna.moretweaks.api.config.ConfigManager
 import dev.tarna.moretweaks.api.config.objects.Config
 import dev.tarna.moretweaks.api.lang.Translatable
+import dev.tarna.moretweaks.api.listeners.CropTrampleListener
 import dev.tarna.moretweaks.api.recipes.RecipeManager
 import dev.tarna.moretweaks.api.tweaks.TweakManager
 import org.bstats.bukkit.Metrics
@@ -29,6 +30,7 @@ class MoreTweaks : JavaPlugin() {
         registerCommands()
         registerTweaks()
         registerRecipes()
+        registerListeners()
         loadMetrics()
 
         logger.info("Enabled in ${System.currentTimeMillis() - start}ms")
@@ -56,6 +58,12 @@ class MoreTweaks : JavaPlugin() {
         logger.info("Registering recipes")
         recipeManager = RecipeManager(this)
         recipeManager.load()
+    }
+
+    private fun registerListeners() {
+        logger.info("Registering listeners")
+        val listeners = tweakManager.getRequiredCustomListeners()
+        listeners.forEach { server.pluginManager.registerEvents(it, this) }
     }
 
     private fun loadMetrics() {
