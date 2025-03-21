@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.DeadSaplingsConfig
+import dev.tarna.moretweaks.config.tweaks.DeadSaplingsConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.isSapling
 import dev.tarna.moretweaks.api.utils.toTicks

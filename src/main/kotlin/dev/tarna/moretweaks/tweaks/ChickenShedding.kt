@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.ChickenSheddingConfig
+import dev.tarna.moretweaks.config.tweaks.ChickenSheddingConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.chance
 import dev.tarna.moretweaks.api.utils.toItemStack

@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.MobsOnBlocksConfig
+import dev.tarna.moretweaks.config.tweaks.MobsOnBlocksConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import io.papermc.paper.event.entity.EntityMoveEvent
 import org.bukkit.Material

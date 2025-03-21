@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.ChestSortingConfig
+import dev.tarna.moretweaks.config.tweaks.ChestSortingConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.getNearbyBlocks
 import dev.tarna.moretweaks.api.utils.sort

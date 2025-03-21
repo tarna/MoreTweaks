@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.AntiCreeperGriefConfig
+import dev.tarna.moretweaks.config.tweaks.AntiCreeperGriefConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import org.bukkit.entity.Creeper
 import org.bukkit.event.EventHandler

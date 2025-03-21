@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.recipes
 
-import dev.tarna.moretweaks.api.config.objects.recipes.BlastedOreBlocksConfig
+import dev.tarna.moretweaks.config.recipes.BlastedOreBlocksConfig
 import dev.tarna.moretweaks.api.recipes.CustomRecipe
 import dev.tarna.moretweaks.api.utils.Key
 import dev.tarna.moretweaks.api.utils.toItemStack

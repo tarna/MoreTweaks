@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.DragonLootConfig
+import dev.tarna.moretweaks.config.tweaks.DragonLootConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.toItemStack
 import org.bukkit.Material

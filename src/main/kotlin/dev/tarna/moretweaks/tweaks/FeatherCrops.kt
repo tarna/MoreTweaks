@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.FeatherCropsConfig
+import dev.tarna.moretweaks.config.tweaks.FeatherCropsConfig
 import dev.tarna.moretweaks.api.event.CropTrampleEvent
 import dev.tarna.moretweaks.api.listeners.CropTrampleListener
 import dev.tarna.moretweaks.api.tweaks.Tweak

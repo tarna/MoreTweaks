@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.recipes
 
-import dev.tarna.moretweaks.api.config.objects.recipes.UnpackableIceConfig
+import dev.tarna.moretweaks.config.recipes.UnpackableIceConfig
 import dev.tarna.moretweaks.api.recipes.CustomRecipe
 import dev.tarna.moretweaks.api.utils.Key.toKey
 import dev.tarna.moretweaks.api.utils.toItemStack

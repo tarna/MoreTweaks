@@ -2,9 +2,8 @@ package dev.tarna.moretweaks
 
 import dev.tarna.moretweaks.api.commands.CommandManager
 import dev.tarna.moretweaks.api.config.ConfigManager
-import dev.tarna.moretweaks.api.config.objects.Config
+import dev.tarna.moretweaks.config.Config
 import dev.tarna.moretweaks.api.lang.Translatable
-import dev.tarna.moretweaks.api.listeners.CropTrampleListener
 import dev.tarna.moretweaks.api.recipes.RecipeManager
 import dev.tarna.moretweaks.api.tweaks.TweakManager
 import org.bstats.bukkit.Metrics

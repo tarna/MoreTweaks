@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.WeakenedBedrockConfig
+import dev.tarna.moretweaks.config.tweaks.WeakenedBedrockConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.chance
 import dev.tarna.moretweaks.api.utils.getNearbyBlocks

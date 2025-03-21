@@ -2,7 +2,7 @@ package dev.tarna.moretweaks.commands.tweaks
 
 import dev.tarna.moretweaks.api.commands.CustomCommand
 import dev.tarna.moretweaks.api.commands.TweakCommand
-import dev.tarna.moretweaks.api.config.objects.tweaks.ItemFinderConfig
+import dev.tarna.moretweaks.config.tweaks.ItemFinderConfig
 import dev.tarna.moretweaks.api.utils.getNearbyContainers
 import dev.tarna.moretweaks.api.utils.send
 import org.bukkit.Material

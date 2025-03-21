@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.DurabilityPingConfig
+import dev.tarna.moretweaks.config.tweaks.DurabilityPingConfig
 import dev.tarna.moretweaks.api.config.options.impl.MessageTypeOption
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.send

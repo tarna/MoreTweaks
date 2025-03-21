@@ -2,7 +2,7 @@ package dev.tarna.moretweaks.commands.tweaks
 
 import dev.tarna.moretweaks.api.commands.CustomCommand
 import dev.tarna.moretweaks.api.commands.TweakCommand
-import dev.tarna.moretweaks.api.config.objects.tweaks.RealTimeClockConfig
+import dev.tarna.moretweaks.config.tweaks.RealTimeClockConfig
 import dev.tarna.moretweaks.api.utils.mm
 import dev.tarna.moretweaks.api.utils.placeholder
 import org.bukkit.entity.Player

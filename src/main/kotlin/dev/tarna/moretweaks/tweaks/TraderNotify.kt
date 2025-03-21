@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.TraderNotifyConfig
+import dev.tarna.moretweaks.config.tweaks.TraderNotifyConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.mm
 import dev.tarna.moretweaks.api.utils.placeholder

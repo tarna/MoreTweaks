@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.BatMembranesConfig
+import dev.tarna.moretweaks.config.tweaks.BatMembranesConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.chance
 import dev.tarna.moretweaks.api.utils.toItemStack

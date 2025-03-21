@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.recipes
 
-import dev.tarna.moretweaks.api.config.objects.recipes.CraftableEnchantedGoldenAppleConfig
+import dev.tarna.moretweaks.config.recipes.CraftableEnchantedGoldenAppleConfig
 import dev.tarna.moretweaks.api.recipes.CustomRecipe
 import dev.tarna.moretweaks.api.utils.toItemStack
 import org.bukkit.Material

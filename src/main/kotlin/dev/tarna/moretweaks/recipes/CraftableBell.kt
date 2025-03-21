@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.recipes
 
-import dev.tarna.moretweaks.api.config.objects.recipes.CraftableBellConfig
+import dev.tarna.moretweaks.config.recipes.CraftableBellConfig
 import dev.tarna.moretweaks.api.recipes.CustomRecipe
 import dev.tarna.moretweaks.api.utils.allPlanks
 import dev.tarna.moretweaks.api.utils.toItemStack

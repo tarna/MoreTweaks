@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.RealTimeClockConfig
+import dev.tarna.moretweaks.config.tweaks.RealTimeClockConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.commands.tweaks.RealTimeClockCommand
 

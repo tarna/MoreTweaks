@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.AntiGhastGriefConfig
+import dev.tarna.moretweaks.config.tweaks.AntiGhastGriefConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import org.bukkit.Material
 import org.bukkit.entity.Fireball

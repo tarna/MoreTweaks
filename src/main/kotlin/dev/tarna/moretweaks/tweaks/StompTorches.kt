@@ -1,7 +1,7 @@
 package dev.tarna.moretweaks.tweaks
 
 import com.destroystokyo.paper.event.entity.EntityJumpEvent
-import dev.tarna.moretweaks.api.config.objects.tweaks.StompTorchesConfig
+import dev.tarna.moretweaks.config.tweaks.StompTorchesConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import org.bukkit.Material
 import org.bukkit.block.Block

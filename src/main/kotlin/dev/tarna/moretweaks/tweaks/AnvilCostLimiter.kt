@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.AnvilCostLimiterConfig
+import dev.tarna.moretweaks.config.tweaks.AnvilCostLimiterConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import org.bukkit.event.EventHandler
 import org.bukkit.event.inventory.PrepareAnvilEvent

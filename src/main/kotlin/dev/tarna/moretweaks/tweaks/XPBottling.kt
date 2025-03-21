@@ -1,6 +1,6 @@
 package dev.tarna.moretweaks.tweaks
 
-import dev.tarna.moretweaks.api.config.objects.tweaks.XPBottlingConfig
+import dev.tarna.moretweaks.config.tweaks.XPBottlingConfig
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.*
 import org.bukkit.Material
