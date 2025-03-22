@@ -107,6 +107,9 @@ tweak:
   weakened_bedrock:
     name: "Weakened Bedrock"
     description: "Allow bedrock to be weakened by lingering potion of weakness."
+  wither_flesh:
+    name: "Wither Flesh"
+    description: "Mobs drop rotten flesh when killed by a wither."
   xp_bottling:
     name: "XP Bottling"
     description: "Bottle your experience points into bottles of enchanting to store them."

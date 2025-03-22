@@ -41,6 +41,7 @@
 * [Unlock All Recipes](tweaks/unlock-all-recipes.md)
 * [Unstable TNT](tweaks/unstable-tnt.md)
 * [Weakened Bedrock](tweaks/weakened-bedrock.md)
+* [Wither Flesh](tweaks/wither-flesh.md)
 * [XP Bottling](tweaks/xp-bottling.md)
 * [Zombie Pickaxe](tweaks/zombie-pickaxe.md)
 
