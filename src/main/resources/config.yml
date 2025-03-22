@@ -219,6 +219,17 @@ tweaks:
   xp_bottling:
     enabled: false
     xp_per_bottle: 100
+  zombie_pickaxe:
+    enabled: false
+    y_level: 50
+    chances:
+      none: 50
+      wooden_pickaxe: 20
+      stone_pickaxe: 10
+      iron_pickaxe: 5
+      golden_pickaxe: 5
+      diamond_pickaxe: 5
+      netherite_pickaxe: 5
 
 recipes:
   blasted_ore_blocks:

@@ -110,6 +110,9 @@ tweak:
   xp_bottling:
     name: "XP Bottling"
     description: "Bottle your experience points into bottles of enchanting to store them."
+  zombie_pickaxe:
+    name: "Zombie Pickaxe"
+    description: "Chance for zombies to spawn with a pickaxe when below a certain Y level."
 
 recipe:
   blasted_ore_blocks:
