@@ -98,6 +98,9 @@ tweak:
   transferable_pets:
     name: "Transferable Pets"
     description: "Transfer ownership of pets to other players."
+  tree_elevator:
+    name: "Tree Elevator"
+    description: "When standing on a sapling when it grows, you will be teleported to the top of the tree."
   unlock_all_recipes:
     name: "Unlock All Recipes"
     description: "Unlock all recipes for players."

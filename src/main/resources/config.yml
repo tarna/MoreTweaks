@@ -203,6 +203,9 @@ tweaks:
       - "MULE"
       - "PARROT"
       - "WOLF"
+  tree_elevator:
+    enabled: false
+    range: 0.5
   unlock_all_recipes:
     enabled: false
   unstable_tnt:

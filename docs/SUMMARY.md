@@ -38,6 +38,7 @@
 * [Stomp Torches](tweaks/stomp-torches.md)
 * [Trader Notify](tweaks/trader-notify.md)
 * [Transferable Pets](tweaks/transferable-pets.md)
+* [Tree Elevator](tweaks/tree-elevator.md)
 * [Unlock All Recipes](tweaks/unlock-all-recipes.md)
 * [Unstable TNT](tweaks/unstable-tnt.md)
 * [Weakened Bedrock](tweaks/weakened-bedrock.md)
