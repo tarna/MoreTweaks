@@ -37,3 +37,5 @@ tasks {
         jvmArgs("-DPaper.IgnoreJavaVersion=true", "-Dcom.mojang.eula.agree=true")
     }
 }
+
+apply(from = "buildSrc/src/main/kotlin/createTweak.gradle.kts")
