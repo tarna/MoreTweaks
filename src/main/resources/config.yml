@@ -136,6 +136,9 @@ tweaks:
   more_shulker_shells:
     enabled: false
     amount: 2
+  nether_creepers:
+    enabled: false
+    chance: 10
   no_more_zoombies:
     enabled: false
   one_life_one_totem:

@@ -62,6 +62,9 @@ tweak:
   more_shulker_shells:
     name: "More Shulker Shells"
     description: "Increase the number of shulker shells dropped."
+  nether_creepers:
+    name: "Nether Creepers"
+    description: "Charged Creepers have a rare chance of spawning in Nether Wastes."
   no_more_zoombies:
     name: "No More Zoombies"
     description: "Sets the speed of baby zombies to the ones of regular zombies."

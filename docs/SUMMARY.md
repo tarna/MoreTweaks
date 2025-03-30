@@ -26,6 +26,7 @@
 * [Item Finder](tweaks/item-finder.md)
 * [Mobs on Blocks](tweaks/mobs-on-blocks.md)
 * [More Shulker Shells](tweaks/more-shulker-shells.md)
+* [Nether Creepers](tweaks/nether-creepers.md)
 * [No More Zoombies](tweaks/no-more-zoombies.md)
 * [One Life One Totem](tweaks/one-life-one-totem.md)
 * [Paperbark](tweaks/paperbark.md)
