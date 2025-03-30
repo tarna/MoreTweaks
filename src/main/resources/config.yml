@@ -213,6 +213,9 @@ tweaks:
   tree_elevator:
     enabled: false
     range: 0.5
+  tree_twerk:
+    enabled: false
+    radius: 3
   unlock_all_recipes:
     enabled: false
   unstable_tnt:
