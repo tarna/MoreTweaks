@@ -22,6 +22,7 @@
 * [Durability Ping](tweaks/durability-ping.md)
 * [Fast Paths](tweaks/fast-paths.md)
 * [Feather Crops](tweaks/feather-crops.md)
+* [Fire Aspect Lighter](tweaks/fire-aspect-lighter.md)
 * [Item Finder](tweaks/item-finder.md)
 * [Mobs on Blocks](tweaks/mobs-on-blocks.md)
 * [More Shulker Shells](tweaks/more-shulker-shells.md)

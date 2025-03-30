@@ -115,6 +115,13 @@ tweaks:
   feather_crops:
     enabled: false
     chance: 100
+  fire_aspect_lighter:
+    enabled: false
+    features:
+      campfire: true
+      candle: true
+      nether_portal: true
+      tnt: true
   item_finder:
     enabled: false
     command: "itemfinder"

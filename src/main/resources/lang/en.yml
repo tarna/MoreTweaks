@@ -50,6 +50,9 @@ tweak:
   feather_crops:
     name: "Feather Crops"
     description: "Crops don't get trampled when you walk on them with feather falling boots."
+  fire_aspect_lighter:
+    name: "Fire Aspect Lighter"
+    description: "Light Nether portals, campfires, TNT, and more with Fire Aspect."
   item_finder:
     name: "Item Finder"
     description: "Adds a command to find items in nearby containers."
