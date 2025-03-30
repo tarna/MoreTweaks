@@ -3,7 +3,7 @@ package dev.tarna.moretweaks.tweaks
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.allSaplings
 import dev.tarna.moretweaks.api.utils.getNearbyBlocks
-import dev.tarna.moretweaks.config.TreeTwerkConfig
+import dev.tarna.moretweaks.config.tweaks.TreeTwerkConfig
 import org.bukkit.block.BlockFace
 import org.bukkit.event.EventHandler
 import org.bukkit.event.player.PlayerToggleSneakEvent
