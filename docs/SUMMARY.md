@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Configuration](configuration.md)
+* [Languages](languages.md)
 
 ## Tweaks
 

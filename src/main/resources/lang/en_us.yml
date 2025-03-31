@@ -44,6 +44,7 @@ tweak:
   durability_ping:
     name: "Durability Ping"
     description: "Notify players when their tools are about to break."
+    message: "<red><bold>Item durability is low!"
   fast_paths:
     name: "Fast Paths"
     description: "Increase the speed of players on paths."
@@ -56,6 +57,7 @@ tweak:
   item_finder:
     name: "Item Finder"
     description: "Adds a command to find items in nearby containers."
+    invalid_item: "<red>Invalid item: <item>"
   mobs_on_blocks:
     name: "Mobs on Blocks"
     description: "Certain mobs walking on certain blocks will trigger an event."
@@ -86,6 +88,7 @@ tweak:
   real_time_clock:
     name: "Real Time Clock"
     description: "Display how long the world has been running in real-time."
+    message: "<green>The world has been active for <white><days> <green>days, <white><hours> <green>hours, and <white><minutes> <green>minutes."
   slime_cream:
     name: "Slime Cream"
     description: "Convert slime balls into magma creams and vice versa using water and lava cauldrons."
@@ -101,6 +104,7 @@ tweak:
   trader_notify:
     name: "Trader Notify"
     description: "Notify players when a wandering trader spawns."
+    message: "<white>A <blue>Wandering Trader <white>has spawned at <yellow><x>, <y>, <z>."
   transferable_pets:
     name: "Transferable Pets"
     description: "Transfer ownership of pets to other players."

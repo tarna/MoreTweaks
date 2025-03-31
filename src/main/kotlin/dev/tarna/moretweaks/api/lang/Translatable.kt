@@ -7,19 +7,33 @@ import net.kyori.adventure.text.minimessage.MiniMessage
 import net.kyori.adventure.text.minimessage.tag.resolver.TagResolver
 
 object Translatable {
-    val plugin = MoreTweaks.getPlugin()
-    val languages = mutableListOf<Language>()
+    private val plugin = MoreTweaks.getPlugin()
+
+    val languageList = listOf(
+        "en_us",
+        "es_mx",
+    )
+    private val languages = mutableListOf<Language>()
 
     lateinit var currentLanguage: Language
 
     fun init(lang: String) {
-        languages.add(Language(plugin, "en"))
+        val langList = listOf(
+            "en_us",
+            "es_mx",
+        )
+
+        langList.forEach {
+            languages.add(Language(plugin, it))
+            plugin.logger.info("Loaded language $it")
+        }
 
         currentLanguage = getLanguage(lang)
+        plugin.logger.info("Language set to ${currentLanguage.lang}")
     }
 
     fun getString(key: String): String {
-        return currentLanguage.messages.getString(key) ?: "Missing translation for $key"
+        return currentLanguage.messages.getString(key) ?: getLanguage("en_us").messages.getString(key) ?: key
     }
 
     fun get(key: String, vararg resolvers: TagResolver): Component {

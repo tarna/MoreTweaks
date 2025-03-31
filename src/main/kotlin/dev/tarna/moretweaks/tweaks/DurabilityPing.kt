@@ -2,9 +2,11 @@ package dev.tarna.moretweaks.tweaks
 
 import dev.tarna.moretweaks.config.tweaks.DurabilityPingConfig
 import dev.tarna.moretweaks.api.config.options.impl.MessageTypeOption
+import dev.tarna.moretweaks.api.lang.Translatable
 import dev.tarna.moretweaks.api.tweaks.Tweak
 import dev.tarna.moretweaks.api.utils.send
 import net.kyori.adventure.sound.Sound
+import net.kyori.adventure.text.Component
 import org.bukkit.event.EventHandler
 import org.bukkit.event.player.PlayerItemDamageEvent
 import org.bukkit.inventory.meta.Damageable
@@ -14,13 +16,13 @@ class DurabilityPing : Tweak {
 
     private lateinit var threshold: Number
     private lateinit var messageType: MessageTypeOption.MessageType
-    private lateinit var message: String
+    private lateinit var message: Component
     private lateinit var sound: Sound
 
     override fun reload() {
         threshold = DurabilityPingConfig.threshold
         messageType = DurabilityPingConfig.messageType
-        message = DurabilityPingConfig.message
+        message = Translatable.get("tweaks.durability_ping.message")
         sound = DurabilityPingConfig.sound
     }
 

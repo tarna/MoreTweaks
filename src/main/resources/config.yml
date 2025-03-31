@@ -1,5 +1,5 @@
 settings:
-  language: "en"
+  language: "en_us"
 
 tweaks:
   always_drop:
@@ -107,7 +107,6 @@ tweaks:
     enabled: false
     threshold: 5
     message_type: "action_bar"
-    message: "<red><bold>Item durability is low!"
     sound: "minecraft:block.note_block.chime,1.0,1.0"
   fast_paths:
     enabled: false
@@ -181,7 +180,6 @@ tweaks:
     enabled: false
     command: "realtimeclock"
     permission: "moretweaks.realtimeclock"
-    message: "<green>The world has been active for <white><days> <green>days, <white><hours> <green>hours, and <white><minutes> <green>minutes."
   slime_cream:
     enabled: false
   soft_punch:
@@ -198,7 +196,6 @@ tweaks:
     entities: false
   trader_notify:
     enabled: false
-    message: "<white>A <blue>Wandering Trader <white>has spawned at <yellow><x>, <y>, <z>."
     play_sound: true
     sound: "minecraft:block.note_block.chime,1.0,1.0"
     radius: 30.0

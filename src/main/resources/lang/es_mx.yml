@@ -1,0 +1,166 @@
+tweak:
+  always_drop:
+    name: "Siempre Soltar"
+    description: "Siempre soltar el bloque cuando se rompe."
+  anti_creeper_grief:
+    name: "Anti Destrucción por Creepers"
+    description: "Previene que los creepers puedan destruir bloques o entidades."
+  anti_enderman_grief:
+    name: "Anti Destrucción por Endermans"
+    description: "Previene que los Endermans roben bloques."
+  anti_ghast_grief:
+    name: "Anti Destrucción por Ghasts."
+    description: "Previene que los ghasts rompan bloques."
+  anti_zombie_breach:
+    name: "Anti Intrusión de Zombies."
+    description: "Previene que los Zombies rompan puertas."
+  anvil_cost_limiter:
+    name: "Limitador del Coste de Yunque"
+    description: "Limita el costo de reparación de los Yunques."
+  apiarist_suit:
+    name: "Traje de Apicultor"
+    description: "Previene que las Abejas te ataquen si tienes una armadura completa de cota de malla."
+  bat_membranes:
+    name: "Membranas de Murcielagos"
+    description: "Obten membranas de Phantom de Murcielagos."
+  chest_sorting:
+    name: "Mezclado de Cofre"
+    description: "Mezcla los objetos de un cofre usando tan solo un boton.."
+  chicken_shedding:
+    name: "Desplumaje de Pollos"
+    description: "Los pollos tienen mas probabilidades de soltar plumas que huevos."
+  dead_saplings:
+    name: "Brotes Muertos"
+    description: "Los brotes mueren cuando se plantan en ciertos bloques."
+  death_book:
+    name: "Libro de la Muerte"
+    description: "Darle al jugador un libro que contiene su informacion de muerte cuando el reaparezca."
+  dirt_to_grass:
+    name: "De Tierra a Pasto"
+    description: "Convertir la tierra en pasto con ciertos items."
+  dragon_loot:
+    name: "Botín de Dragón"
+    description: "Establecer un botín personalizado cuando la dragona muere."
+  durability_ping:
+    name: "Aviso de Durabilidad"
+    description: "Notificar al jugador cuando sus herramientas se están por romper."
+    message: "<red><bold>Item durability is low!"
+  fast_paths:
+    name: "Caminos Rapidos"
+    description: "Incrementa la velocidad de los jugadores en los caminos."
+  feather_crops:
+    name: "Cosechas de Plumas"
+    description: "Los cultivos no se rompen cuando saltas sobre ellos con botas encantadas con caida de pluma."
+  fire_aspect_lighter:
+    name: "Fire Aspect Lighter"
+    description: "Light Nether portals, campfires, TNT, and more with Fire Aspect."
+  item_finder:
+    name: "Encontrador de Objetos"
+    description: "Añade un comando para encontra items en contenedores cercanos."
+    invalid_item: "<red>Invalid item: <item>"
+  mobs_on_blocks:
+    name: "Mobs en Bloques"
+    description: "Algunos mobs caminado sobre ciertos bloques pueden desencsdenar eventos."
+  more_shulker_shells:
+    name: "Más Cascaras de Shulkers"
+    description: "Incrementa el número de Cascaras que suelta un Shulker."
+  nether_creepers:
+    name: "Nether Creepers"
+    description: "Charged Creepers have a rare chance of spawning in Nether Wastes."
+  no_more_zoombies:
+    name: "No más Zombies"
+    description: "Cambia la belocidad de los Mini Zombies a la de uno Normal."
+  one_life_one_totem:
+    name: "Una Vida Un Totem"
+    description: "Los jugadores solo pueden tener un totem de la inmortalidad por vida.."
+  paperbark:
+    name: "Corteza de Papél"
+    description: "Obten papel al quiyar la corteza de los troncos."
+  pet_memorial_name_tag:
+    name: "Etiqueta Conmemorativa de Mascotas"
+    description: "Suelta una etiqueta conmemorativa cuando tu mascota miere."
+  possessive_pigmen:
+    name: "Pigmen Posesivo"
+    description: "Los Pigmen se enojan cuando minas oro."
+  random_creeper_fuse:
+    name: "Activación de Creeper Aleatoria"
+    description: "Aleatoriza cuanto tarda un creeper en explotar."
+  real_time_clock:
+    name: "Reloj de Tiempo Real"
+    description: "Mostrar cuanto tiempo a corrido en tiempo del mundo real."
+    message: "<green>The world has been active for <white><days> <green>days, <white><hours> <green>hours, and <white><minutes> <green>minutes."
+  slime_cream:
+    name: "Crema de Slime"
+    description: "Convierte Bolas de Slime en Bolas de Magma y Viceversa usando lava y agua."
+  soft_punch:
+    name: "Golpe Suave"
+    description: "No haces daño a las entidsdes cuand9 tienes ciertos items en la mano."
+  starting_inventory:
+    name: "Inventario Inicial"
+    description: "Le da a los jugadores que estan iniciando un inventario de inicio."
+  stomp_torches:
+    name: "Rompe Antorchas"
+    description: "Extinge antorchar c9n sol9 caminar encima de ellas."
+  trader_notify:
+    name: "Norificacion de Comerciante"
+    description: "Notificar al jugador cuando un Comerciante Ambulante apareció cerca."
+    message: "<white>A <blue>Wandering Trader <white>has spawned at <yellow><x>, <y>, <z>."
+  transferable_pets:
+    name: "Mascotas Transferibles"
+    description: "Transferir la posesion de una mascota de un dueño a otro."
+  tree_elevator:
+    name: "Ascensor de Arbol"
+    description: "Si te quedas sobre el brote de un arbol, cuando creza seras teletransportado a su cima."
+  tree_twerk:
+    name: "Tree Twerk"
+    description: "Grow trees faster by twerking near them."
+  unlock_all_recipes:
+    name: "Desbloquear Todas las Recetas"
+    description: "Desbloquearle a un Jugador todas las recetas.."
+  unstable_tnt:
+    name: "TNT Inútil"
+    description: "Haz click derecho para gacer la TNT inestrable"
+  weakened_bedrock:
+    name: "Weakened Bedrock"
+    description: "Allow bedrock to be weakened by lingering potion of weakness."
+  wither_flesh:
+    name: "Carne de Wither"
+    description: "Los mobs sueltan carne podrida al morir por un wither."
+  xp_bottling:
+    name: "Enbotellamiento de XP"
+    description: "Embotellar tus puntos dd experiencia en botellas de experiencia para guardarla."
+  zombie_pickaxe:
+    name: "Pico de Zombie"
+    description: "Probabilidad de que un Zombie aparezca con un pico si se encuentra debajo de una capa Y especifica."
+
+recipe:
+  blasted_ore_blocks:
+    name: "Bloques de Mineral Fundido"
+    description: "Fundir bloques de mineral en bruto a su forma de bloque usando un Alto Horno."
+  craftable_bell:
+    name: "Campana Construíble"
+    description: "Fabrica una Campana usando Tablones y Oro."
+  craftable_enchanted_golden_apple:
+    name: "Manzana Dorada Encantada Construíble"
+    description: "Craft an enchanted golden apple using gold blocks and an apple like in the old days."
+  dropper_to_dispenser:
+    name: "Soltador a Dispensador"
+    description: "Convierte un Soltador en un Dispensador usando ingredientes de un Arco."
+  sticky_honey_piston:
+    name: "Pistón de Miel Pegajosa"
+    description: "Armar Pistones Pegajosos usando Miel."
+  turtle_box:
+    name: "Caja de Tortuga"
+    description: "Arma una Caja de Shulker Verde usando un Caparazón de Tortuga y un Cofre."
+  unpackable_ice:
+    name: "Hielo Desempaquetable"
+    description: "Convertir Bloqies de Hielo en Cubitos de Hielo nuevamente."
+  unpackable_nether_wart:
+    name: "Verruga del Nether Desempaquetable"
+    description: "Convertir los Bloques de Verruga del Nether en Verrugas del Nether."
+  unpackable_wool:
+    name: "Lana Desenpaquetable"
+    description: "Transforma cualquier bloque de lana en Hilos otra vez."
+  zombie_leather:
+    name: "Cuero de Zombie"
+    description: "Fundir Cuero para conseguir Carne Podrida."
