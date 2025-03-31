@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "dev.tarna"
-version = "1.1.0"
+version = "1.2.0"
 
 repositories {
     mavenCentral()
@@ -26,6 +26,15 @@ kotlin {
 }
 
 tasks {
+    processResources {
+        val props = mapOf("version" to version)
+        inputs.properties(props)
+        filteringCharset = "UTF-8"
+        filesMatching("paper-plugin.yml") {
+            expand(props)
+        }
+    }
+
     shadowJar {
         archiveBaseName.set("MoreTweaks")
         archiveClassifier.set("")

@@ -1,5 +1,5 @@
 name: MoreTweaks
-version: 1.1.0
+version: '${version}'
 main: dev.tarna.moretweaks.MoreTweaks
 description: Adds more custom tweaks and recipes to the game.
 author: Tarna
