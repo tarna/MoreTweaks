@@ -22,3 +22,11 @@ If you would like to contribute a new language, please follow these steps:
 6. Make sure to keep the formatting the same as the original file.
 7. Commit your changes and create a pull request to the `dev` branch.
 8. Once your pull request is merged and an update is released, you will be able to use your new language in the plugin.
+
+## Translation Credits
+
+### en_us
+- [@tarna](https://tarna.dev)
+
+### es_mx
+- [@enttbot](https://www.youtube.com/@enttbot)
