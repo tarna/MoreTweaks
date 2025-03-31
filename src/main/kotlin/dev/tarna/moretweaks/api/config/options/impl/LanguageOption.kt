@@ -2,14 +2,13 @@ package dev.tarna.moretweaks.api.config.options.impl
 
 import dev.tarna.moretweaks.api.lang.Translatable
 
-class LanguageOption(path: String = "settings.language") : StringOption(path, "en") {
+class LanguageOption(path: String = "settings.language") : StringOption(path, "en_us") {
     override fun get(): String {
-        val languages = Translatable.languages.map { it.lang }
-        val lang = config.getString("language") ?: default
-        return if (languages.contains(lang)) lang else default
+        val lang = config.getString(path) ?: default
+        return if (Translatable.languageList.contains(lang)) lang else default
     }
 
     override fun set(value: String) {
-        config.set("language", value)
+        config.set("settings.language", value)
     }
 }

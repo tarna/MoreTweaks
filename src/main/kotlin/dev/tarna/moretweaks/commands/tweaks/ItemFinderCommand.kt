@@ -2,9 +2,10 @@ package dev.tarna.moretweaks.commands.tweaks
 
 import dev.tarna.moretweaks.api.commands.CustomCommand
 import dev.tarna.moretweaks.api.commands.TweakCommand
+import dev.tarna.moretweaks.api.lang.Translatable
 import dev.tarna.moretweaks.config.tweaks.ItemFinderConfig
 import dev.tarna.moretweaks.api.utils.getNearbyContainers
-import dev.tarna.moretweaks.api.utils.send
+import dev.tarna.moretweaks.api.utils.placeholder
 import org.bukkit.Material
 import org.bukkit.Particle
 import org.bukkit.command.CommandSender
@@ -19,7 +20,7 @@ class ItemFinderCommand(command: String) : CustomCommand(command), TweakCommand 
         val nearbyContainers = player.location.getNearbyContainers(range)
 
         val item = Material.matchMaterial(args[0]) ?: run {
-            player.send("<red>Invalid item: ${args[0]}")
+            player.sendMessage(Translatable.get("tweak.item_finder.invalid_item", placeholder("item", args[0])))
             return
         }
 

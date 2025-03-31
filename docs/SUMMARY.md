@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Configuration](configuration.md)
+* [Languages](languages.md)
 
 ## Tweaks
 
@@ -22,9 +23,11 @@
 * [Durability Ping](tweaks/durability-ping.md)
 * [Fast Paths](tweaks/fast-paths.md)
 * [Feather Crops](tweaks/feather-crops.md)
+* [Fire Aspect Lighter](tweaks/fire-aspect-lighter.md)
 * [Item Finder](tweaks/item-finder.md)
 * [Mobs on Blocks](tweaks/mobs-on-blocks.md)
 * [More Shulker Shells](tweaks/more-shulker-shells.md)
+* [Nether Creepers](tweaks/nether-creepers.md)
 * [No More Zoombies](tweaks/no-more-zoombies.md)
 * [One Life One Totem](tweaks/one-life-one-totem.md)
 * [Paperbark](tweaks/paperbark.md)
@@ -38,10 +41,14 @@
 * [Stomp Torches](tweaks/stomp-torches.md)
 * [Trader Notify](tweaks/trader-notify.md)
 * [Transferable Pets](tweaks/transferable-pets.md)
+* [Tree Elevator](tweaks/tree-elevator.md)
+* [Tree Twerk](tweaks/tree-twerk.md)
 * [Unlock All Recipes](tweaks/unlock-all-recipes.md)
 * [Unstable TNT](tweaks/unstable-tnt.md)
 * [Weakened Bedrock](tweaks/weakened-bedrock.md)
+* [Wither Flesh](tweaks/wither-flesh.md)
 * [XP Bottling](tweaks/xp-bottling.md)
+* [Zombie Pickaxe](tweaks/zombie-pickaxe.md)
 
 ## Recipes
 

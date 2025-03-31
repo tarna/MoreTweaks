@@ -44,21 +44,29 @@ tweak:
   durability_ping:
     name: "Durability Ping"
     description: "Notify players when their tools are about to break."
+    message: "<red><bold>Item durability is low!"
   fast_paths:
     name: "Fast Paths"
     description: "Increase the speed of players on paths."
   feather_crops:
     name: "Feather Crops"
     description: "Crops don't get trampled when you walk on them with feather falling boots."
+  fire_aspect_lighter:
+    name: "Fire Aspect Lighter"
+    description: "Light Nether portals, campfires, TNT, and more with Fire Aspect."
   item_finder:
     name: "Item Finder"
     description: "Adds a command to find items in nearby containers."
+    invalid_item: "<red>Invalid item: <item>"
   mobs_on_blocks:
     name: "Mobs on Blocks"
     description: "Certain mobs walking on certain blocks will trigger an event."
   more_shulker_shells:
     name: "More Shulker Shells"
     description: "Increase the number of shulker shells dropped."
+  nether_creepers:
+    name: "Nether Creepers"
+    description: "Charged Creepers have a rare chance of spawning in Nether Wastes."
   no_more_zoombies:
     name: "No More Zoombies"
     description: "Sets the speed of baby zombies to the ones of regular zombies."
@@ -80,6 +88,7 @@ tweak:
   real_time_clock:
     name: "Real Time Clock"
     description: "Display how long the world has been running in real-time."
+    message: "<green>The world has been active for <white><days> <green>days, <white><hours> <green>hours, and <white><minutes> <green>minutes."
   slime_cream:
     name: "Slime Cream"
     description: "Convert slime balls into magma creams and vice versa using water and lava cauldrons."
@@ -95,9 +104,16 @@ tweak:
   trader_notify:
     name: "Trader Notify"
     description: "Notify players when a wandering trader spawns."
+    message: "<white>A <blue>Wandering Trader <white>has spawned at <yellow><x>, <y>, <z>."
   transferable_pets:
     name: "Transferable Pets"
     description: "Transfer ownership of pets to other players."
+  tree_elevator:
+    name: "Tree Elevator"
+    description: "When standing on a sapling when it grows, you will be teleported to the top of the tree."
+  tree_twerk:
+    name: "Tree Twerk"
+    description: "Grow trees faster by twerking near them."
   unlock_all_recipes:
     name: "Unlock All Recipes"
     description: "Unlock all recipes for players."
@@ -107,9 +123,15 @@ tweak:
   weakened_bedrock:
     name: "Weakened Bedrock"
     description: "Allow bedrock to be weakened by lingering potion of weakness."
+  wither_flesh:
+    name: "Wither Flesh"
+    description: "Mobs drop rotten flesh when killed by a wither."
   xp_bottling:
     name: "XP Bottling"
     description: "Bottle your experience points into bottles of enchanting to store them."
+  zombie_pickaxe:
+    name: "Zombie Pickaxe"
+    description: "Chance for zombies to spawn with a pickaxe when below a certain Y level."
 
 recipe:
   blasted_ore_blocks:

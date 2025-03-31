@@ -1,5 +1,5 @@
 settings:
-  language: "en"
+  language: "en_us"
 
 tweaks:
   always_drop:
@@ -107,7 +107,6 @@ tweaks:
     enabled: false
     threshold: 5
     message_type: "action_bar"
-    message: "<red><bold>Item durability is low!"
     sound: "minecraft:block.note_block.chime,1.0,1.0"
   fast_paths:
     enabled: false
@@ -115,6 +114,13 @@ tweaks:
   feather_crops:
     enabled: false
     chance: 100
+  fire_aspect_lighter:
+    enabled: false
+    features:
+      campfire: true
+      candle: true
+      nether_portal: true
+      tnt: true
   item_finder:
     enabled: false
     command: "itemfinder"
@@ -129,6 +135,9 @@ tweaks:
   more_shulker_shells:
     enabled: false
     amount: 2
+  nether_creepers:
+    enabled: false
+    chance: 10
   no_more_zoombies:
     enabled: false
   one_life_one_totem:
@@ -171,7 +180,6 @@ tweaks:
     enabled: false
     command: "realtimeclock"
     permission: "moretweaks.realtimeclock"
-    message: "<green>The world has been active for <white><days> <green>days, <white><hours> <green>hours, and <white><minutes> <green>minutes."
   slime_cream:
     enabled: false
   soft_punch:
@@ -188,7 +196,6 @@ tweaks:
     entities: false
   trader_notify:
     enabled: false
-    message: "<white>A <blue>Wandering Trader <white>has spawned at <yellow><x>, <y>, <z>."
     play_sound: true
     sound: "minecraft:block.note_block.chime,1.0,1.0"
     radius: 30.0
@@ -203,6 +210,12 @@ tweaks:
       - "MULE"
       - "PARROT"
       - "WOLF"
+  tree_elevator:
+    enabled: false
+    range: 0.5
+  tree_twerk:
+    enabled: false
+    radius: 3
   unlock_all_recipes:
     enabled: false
   unstable_tnt:
@@ -216,9 +229,24 @@ tweaks:
       - "world"
       - "world_nether"
       - "world_the_end"
+  wither_flesh:
+    enabled: false
+    chance: 100
+    amount: 1
   xp_bottling:
     enabled: false
     xp_per_bottle: 100
+  zombie_pickaxe:
+    enabled: false
+    y_level: 50
+    chances:
+      none: 50
+      wooden_pickaxe: 20
+      stone_pickaxe: 10
+      iron_pickaxe: 5
+      golden_pickaxe: 5
+      diamond_pickaxe: 5
+      netherite_pickaxe: 5
 
 recipes:
   blasted_ore_blocks:

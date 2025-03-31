@@ -2,6 +2,7 @@ package dev.tarna.moretweaks.api.utils
 
 import dev.tarna.moretweaks.api.config.options.impl.MessageTypeOption
 import dev.tarna.moretweaks.api.config.options.impl.MessageTypeOption.MessageType.*
+import net.kyori.adventure.text.Component
 import net.kyori.adventure.title.TitlePart
 import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
@@ -19,10 +20,14 @@ fun Player.giveOrDrop(item: ItemStack) {
     }
 }
 
-fun Player.send(type: MessageTypeOption.MessageType, message: String) {
+fun Player.send(type: MessageTypeOption.MessageType, message: Component) {
     when (type) {
-        ACTION_BAR -> player?.sendActionBar(!message)
-        CHAT -> player?.send(message)
-        TITLE -> player?.sendTitlePart(TitlePart.TITLE, !message)
+        ACTION_BAR -> player?.sendActionBar(message)
+        CHAT -> player?.sendMessage(message)
+        TITLE -> player?.sendTitlePart(TitlePart.TITLE, message)
     }
+}
+
+fun Player.send(type: MessageTypeOption.MessageType, message: String) {
+    send(type, !message)
 }
